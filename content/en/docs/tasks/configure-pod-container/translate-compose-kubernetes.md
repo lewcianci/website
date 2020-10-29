@@ -127,6 +127,8 @@ you need is an existing `docker-compose.yml` file.
             kompose.service.type: LoadBalancer
       ```
 
+** Note: `kompose up` is not supported on Windows. See this issue for details: https://github.com/kubernetes/kompose/issues/1122
+
 2.  Run the `kompose up` command to deploy to Kubernetes directly, or skip to
     the next step instead to generate a file to use with `kubectl`.
 
